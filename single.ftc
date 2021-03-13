@@ -1,0 +1,11 @@
+// "V" defines the Output Value of the algorithm
+// "P" defines the Output Probabilities of the algorithm
+// "X" defines the Input Value of the algorithm
+// "Y" defines the Input Probabilities of the algorithm
+
+V = X
+P = 1 - ceil((X / 2) - int(X / 2))
+
+// This algorithm takes in a superposition of numbers and
+// outputs a superposition of the same numbers but weighted
+// to only include the even ones

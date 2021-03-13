@@ -1,0 +1,12 @@
+// "V" defines the Output Value of the algorithm
+// "P" defines the Output Probabilities of the algorithm
+// "X1" defines the 1st Input Value of the algorithm
+// "Y1" defines the 1st Input Probabilities of the algorithm
+// "X2" defines the 2nd Input Value of the algorithm
+// "Y2" defines the 2nd Input Probabilities of the algorithm
+
+V = X1
+P = max(0, X2 - X1) * X1
+
+// This algorithm takes in a two superpositions and adds
+// them together, preserving the superposition weights
